@@ -37,9 +37,7 @@ class HomeViewState extends ConsumerState<HomeView> with AutomaticKeepAliveClien
     return CustomScrollView(slivers: [
       const SliverAppBar(
         floating: true,
-        flexibleSpace: FlexibleSpaceBar(
-          title: CustomAppbar(),
-        ),
+        title: CustomAppbar(),
       ),
       SliverList(
           delegate: SliverChildBuilderDelegate((context, index) {

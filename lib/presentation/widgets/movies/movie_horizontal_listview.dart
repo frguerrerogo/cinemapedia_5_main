@@ -95,6 +95,7 @@ class _Slide extends StatelessWidget {
 
           //* Title
           SizedBox(
+            height: 45,
             width: 150,
             child: Text(
               movie.title,
