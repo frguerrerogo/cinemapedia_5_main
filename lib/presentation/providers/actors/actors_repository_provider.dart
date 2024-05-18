@@ -1,5 +1,5 @@
-import 'package:cinemapedia_5_main/infrastructure/datasources/actor_moviedb_datasource.dart';
-import 'package:cinemapedia_5_main/infrastructure/repositories/actor_repository_impl.dart';
+import 'package:cinemapedia_5_main/data/datasources/actor_moviedb_datasource.dart';
+import 'package:cinemapedia_5_main/data/repositories/actor_repository_impl.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 // Este repositorio es inmutable

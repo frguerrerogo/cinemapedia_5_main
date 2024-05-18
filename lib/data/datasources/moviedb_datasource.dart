@@ -3,8 +3,8 @@ import 'package:dio/dio.dart';
 import 'package:cinemapedia_5_main/config/constants/environment.dart';
 import 'package:cinemapedia_5_main/domain/datasources/movies_datasource.dart';
 
-import 'package:cinemapedia_5_main/infrastructure/models/models.dart';
-import 'package:cinemapedia_5_main/infrastructure/mappers/mappers.dart';
+import 'package:cinemapedia_5_main/data/models/models.dart';
+import 'package:cinemapedia_5_main/data/mappers/mappers.dart';
 
 import 'package:cinemapedia_5_main/domain/entities/entities.dart';
 
